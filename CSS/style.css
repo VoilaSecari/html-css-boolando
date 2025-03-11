@@ -86,10 +86,23 @@ ul {
 
 .card-article {
   width: 340px;
-  height: 462px;
-  background-color: pink;
+  /* background-color: pink; */
   position: relative;
-  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.card-article:hover .default-image {
+  opacity: 0%;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .card-container {
@@ -110,6 +123,7 @@ ul {
   position: absolute;
   top: 10px;
   right: 0;
+  z-index: 2;
 }
 
 /* badge promo card */
@@ -117,6 +131,7 @@ ul {
 .container-badge-promo {
   position: absolute;
   top: 385px;
+  z-index: 2;
 }
 
 /* card data */
