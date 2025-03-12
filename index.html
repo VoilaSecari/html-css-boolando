@@ -10,34 +10,55 @@
     <header>
       <div class="barra-header">
         <div class="container row">
-          <div class="menu-header">Donna Uomo Bambini</div>
+          <div class="menu-header">
+            <ul>
+              <li class="lista-menu"><a href="#">Donna</a></li>
+              <li class="lista-menu"><a href="#">Uomo</a></li>
+              <li class="lista-menu"><a href="#">Bambini</a></li>
+            </ul>
+          </div>
           <!-- un flex per il logo per centrarlo? -->
-          <div class="logo-header text-centered">logo</div>
+          <div class="logo-header text-centered">
+            <img
+              src="./IMG/boolean-logo.png"
+              alt="Logo Boolean"
+              id="immagine-logo"
+            />
+          </div>
           <div class="icone-header text-right">icona icona</div>
         </div>
       </div>
     </header>
     <main>
-      <div class="container">
+      <div class="container contenuto">
+        <!-- card 1 -->
         <div class="card-container">
           <article class="card-article">
-            <!-- andrà una immagine qua-->
-            <img
-              src="./IMG/1.webp"
-              alt="Maglietta Unisex"
-              class="default-image"
-            />
-            <!-- qui andrà immagine hover -->
-            <img src="./IMG/1b.webp" alt="Zoom Maglietta" class="hover-image" />
+            <div class="card-top">
+              <!-- andrà una immagine qua-->
+              <img
+                src="./IMG/1.webp"
+                alt="Maglietta Unisex"
+                class="default-image"
+              />
+              <!-- qui andrà immagine hover -->
+              <img
+                src="./IMG/1b.webp"
+                alt="Zoom Maglietta"
+                class="hover-image"
+              />
 
-            <div class="badge-cuore">&hearts;</div>
-            <div class="container-badge-promo">
-              <div class="btn-badge-general btn-red">-50%</div>
-              <div class="btn-badge-general btn-green btn-promo-sostenibilita">
-                Sostenibilità
+              <div class="badge-cuore">&hearts;</div>
+              <div class="container-badge-promo">
+                <button class="btn-badge-general btn-red">-50%</button>
+                <button
+                  class="btn-badge-general btn-green btn-promo-sostenibilita"
+                >
+                  Sostenibilità
+                </button>
               </div>
             </div>
-            <div class="card-data">
+            <div class="card-bottom">
               <!-- qui ci vanno tutte le info -->
               <h6 class="brand">Levi's</h6>
               <h4 class="nome-prodotto">RELAXED FIT TEE UNISEX</h4>
@@ -47,8 +68,176 @@
             </div>
           </article>
         </div>
+        <!-- card 2 -->
+        <div class="card-container">
+          <article class="card-article">
+            <div class="card-top">
+              <!-- andrà una immagine qua-->
+              <img
+                src="./IMG/2.webp"
+                alt="Maglietta Unisex"
+                class="default-image"
+              />
+              <!-- qui andrà immagine hover -->
+              <img
+                src="./IMG/2b.webp"
+                alt="Zoom Maglietta"
+                class="hover-image"
+              />
+
+              <div class="badge-cuore">&hearts;</div>
+              <div class="container-badge-promo">
+                <button class="btn-badge-general btn-red">-30%</button>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <!-- qui ci vanno tutte le info -->
+              <h6 class="brand">Guess</h6>
+              <h4 class="nome-prodotto">ROSES TEE</h4>
+              <h5 class="prezzo-scontato">
+                20,99€ <span class="prezzo-vecchio">29,99€</span>
+              </h5>
+            </div>
+          </article>
+        </div>
+        <!-- card 3 -->
+        <div class="card-container">
+          <article class="card-article">
+            <div class="card-top">
+              <!-- andrà una immagine qua-->
+              <img src="./IMG/3.webp" alt="Maglietta" class="default-image" />
+              <!-- qui andrà immagine hover -->
+              <img
+                src="./IMG/3b.webp"
+                alt="Zoom Maglietta"
+                class="hover-image"
+              />
+
+              <div class="badge-cuore">&hearts;</div>
+              <div class="container-badge-promo">
+                <button class="btn-badge-general btn-red">-30%</button>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <!-- qui ci vanno tutte le info -->
+              <h6 class="brand">Come Zucchero Filato</h6>
+              <h4 class="nome-prodotto">VOGLIA DI COLORI PASTELLO</h4>
+              <h5 class="prezzo-scontato">
+                129,99€ <span class="prezzo-vecchio">184,99€</span>
+              </h5>
+            </div>
+          </article>
+        </div>
+        <!-- card 4 -->
+        <div class="card-container">
+          <article class="card-article">
+            <div class="card-top">
+              <!-- andrà una immagine qua-->
+              <img src="./IMG/4.webp" alt="Maglietta" class="default-image" />
+              <!-- qui andrà immagine hover -->
+              <img
+                src="./IMG/4b.webp"
+                alt="Zoom Maglietta"
+                class="hover-image"
+              />
+
+              <div class="badge-cuore">&hearts;</div>
+              <div class="container-badge-promo">
+                <button class="btn-badge-general btn-red">-50%</button>
+                <button
+                  class="btn-badge-general btn-green btn-promo-sostenibilita"
+                >
+                  Sostenibilità
+                </button>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <!-- qui ci vanno tutte le info -->
+              <h6 class="brand">Levi's</h6>
+              <h4 class="nome-prodotto">TEE UNISEX</h4>
+              <h5 class="prezzo-scontato">
+                14,99€ <span class="prezzo-vecchio">29,99€</span>
+              </h5>
+            </div>
+          </article>
+        </div>
+        <!-- card 5 -->
+        <div class="card-container">
+          <article class="card-article">
+            <div class="card-top">
+              <!-- andrà una immagine qua-->
+              <img
+                src="./IMG/5.webp"
+                alt="Maglietta Unisex"
+                class="default-image"
+              />
+              <!-- qui andrà immagine hover -->
+              <img
+                src="./IMG/5b.webp"
+                alt="Zoom Maglietta"
+                class="hover-image"
+              />
+
+              <div class="badge-cuore">&hearts;</div>
+            </div>
+            <div class="card-bottom">
+              <!-- qui ci vanno tutte le info -->
+              <h6 class="brand">Maya Deluxe</h6>
+              <h4 class="nome-prodotto">STRIPE BODICE</h4>
+              <h5 class="prezzo-scontato">99,99€</h5>
+            </div>
+          </article>
+        </div>
+        <!-- card 6 -->
+        <div class="card-container">
+          <article class="card-article">
+            <div class="card-top">
+              <!-- andrà una immagine qua-->
+              <img
+                src="./IMG/6.webp"
+                alt="Maglietta Unisex"
+                class="default-image"
+              />
+              <!-- qui andrà immagine hover -->
+              <img
+                src="./IMG/6b.webp"
+                alt="Zoom Maglietta"
+                class="hover-image"
+              />
+
+              <div class="badge-cuore">&hearts;</div>
+              <div class="container-badge-promo">
+                <button
+                  class="btn-badge-general btn-green btn-promo-sostenibilita"
+                >
+                  Sostenibilità
+                </button>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <!-- qui ci vanno tutte le info -->
+              <h6 class="brand">Esprit</h6>
+              <h4 class="nome-prodotto">MAGLIONE - BLACK</h4>
+              <h5 class="prezzo-scontato">29,99€</h5>
+            </div>
+          </article>
+        </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container footer">
+        <div class="nome-azienda-footer">
+          <h4>Boolando s.r.l.</h4>
+          <ul>
+            <li class="info-azienda-footer">Informazioni legali</li>
+            <li class="info-azienda-footer">Informazioni sulla privacy</li>
+            <li class="info-azienda-footer">Diritto di recesso</li>
+          </ul>
+        </div>
+        <div class="icone-footer">
+          <h4>Trovaci anche su</h4>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

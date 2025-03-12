@@ -20,6 +20,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: inline-block;
 }
 
 /* Utils */
@@ -51,11 +52,12 @@ ul {
 }
 
 .btn-badge-general {
-  padding: 6px 14px;
+  padding: 4px 10px;
   display: inline-block;
   color: white;
-  font-size: 0.8rem;
+  font-size: 9px;
   margin-right: 2px;
+  border: 1px solid transparent;
 }
 
 .btn-badge-general.btn-red {
@@ -78,8 +80,25 @@ ul {
   color: white;
 }
 
+.lista-menu {
+  display: inline;
+  margin-right: 5px;
+}
+
+li > a {
+  color: white;
+}
+
+.barra-header {
+  font-size: 12px;
+}
+
 .container.row > * {
   width: calc(100% / 3);
+}
+
+#immagine-logo {
+  max-width: 35%;
 }
 
 /* card */
@@ -130,7 +149,7 @@ ul {
 
 .container-badge-promo {
   position: absolute;
-  top: 385px;
+  top: 438px;
   z-index: 2;
 }
 
@@ -148,4 +167,31 @@ h5 {
   font-weight: 100;
   color: black;
   text-decoration: line-through;
+}
+
+/* container */
+
+.container.contenuto {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+}
+
+.container.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.info-azienda-footer {
+  display: inline;
+  font-size: 12px;
+  margin-right: 10px;
 }
